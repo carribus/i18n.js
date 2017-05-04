@@ -17,9 +17,14 @@ const keyArray = [
     "goodbyes.errorful"
 ];
 let lang = "en";
+const runTest = function() {
+    for ( key of keyArray ) {
+        console.log("[%s] %s == %s", lang, key, i18n.get(key, lang));
+    }
+};
 
 i18n.parse(langJSON);
 
-for ( key of keyArray ) {
-    console.log("[%s] %s == %s", lang, key, i18n.get(key, lang));
-}
+runTest();
+i18n.missTriggersException = true;
+runTest();
