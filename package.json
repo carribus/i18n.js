@@ -1,0 +1,20 @@
+{
+  "name": "i18n.js",
+  "version": "1.0.0",
+  "description": "A lightweight i18n (internationalisation) object for frontend/backend apps written in pure JS",
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carribus/i18n.js.git"
+  },
+  "author": "Peter Mares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carribus/i18n.js/issues"
+  },
+  "homepage": "https://github.com/carribus/i18n.js#readme"
+}

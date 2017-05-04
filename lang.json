@@ -1,0 +1,16 @@
+{
+  "en": {
+    "greetings": {
+      "normal": "Hello!",
+      "programmer": "Hello world",
+      "cool": "Wassup?",
+      "reallycool": "'sup"
+    },
+    "goodbyes": {
+      "normal": "Bye!",
+      "programmer": "bbl",
+      "cool": "Ciao dude",
+      "reallycool": "Later bro!"
+    }
+  }
+}
